@@ -1,6 +1,6 @@
 language: go
 go:
--1.6
+- 1.6
 before_script:
 - npm install -g chrome-har-capturer
 addons:
