@@ -1,5 +1,6 @@
 language: go
 dist: trusty
+sudo: false
 go:
 - 1.6
 addons:
@@ -7,7 +8,7 @@ addons:
 before_install:
 - nvm install 7.10.0
 - nvm use 7.10.0
-- google-chrome-stable --headless --disable-gpu --remote-debugging-port=9222 --lang=zh-tw --prefs.intl.accept_languages=zh-tw &
+- google-chrome-stable --headless --disable-gpu --remote-debugging-port=9222 --lang=zh-TW --prefs.intl.accept_languages=zh-TW &
 - npm install -g chrome-har-capturer
 install: sh run.sh
 script:
