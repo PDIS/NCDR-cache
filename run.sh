@@ -5,7 +5,7 @@ chrome-har-capturer \
 
 git clone https://github.com/outersky/har-tools.git
 
-go run harx.go -x light light.har
+go run har-tools/harx.go -x light light.har
 
 mv light/itwapi.ncdr.nat.gov.tw/web/apiIndex.aspx light/itwapi.ncdr.nat.gov.tw/web/index.html
 
