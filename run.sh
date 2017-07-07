@@ -3,6 +3,8 @@ chrome-har-capturer \
 -g 10000 \
 -c "http://itwapi.ncdr.nat.gov.tw/web/apiIndex.aspx?PageId=221&Cx=121&Cy=23.5&Scale=3&Info=Y&MapControl=Y&AddrLoc=Y&Token=YuDz2cxPv9XJ"
 
+ls
+
 git clone https://github.com/outersky/har-tools.git
 
 go run har-tools/harx.go -x light light.har
