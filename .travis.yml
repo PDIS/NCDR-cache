@@ -10,8 +10,7 @@ before_install:
 - google-chrome-stable --headless --disable-gpu --remote-debugging-port=9222 --lang=zh-tw --prefs.intl.accept_languages=zh-tw &
 - npm install -g chrome-har-capturer
 install: sh run.sh
-
-deploy:
+script:
 - git config --global user.email "$GIT_EMAIL"
 - git config --global user.name "$GIT_NAME"
 - git config --global push.default simple
@@ -24,7 +23,6 @@ deploy:
 - MESSAGE=`date +\ %Y-%m-%d\ %H:%M:%S`
 - git commit -m "Book updated:$MESSAGE"
 - git push --quiet
-
 env:
   global:
     secure: JO05vYpsoiDr4jwqCzyKdL547V1pbnGVZMUbjQcr0arHuDq5U7WIHIJZx14ools+woQTCqa7iLy1R603N07iheAmdRG1gTFoYMyDSokHdu8N0IE8JiASwm1TaZdlqdK8l+iR6R2uYmYz+uy3HHD3vYzKIo5gq7ZbUErjEHxCuCc6oqK3WTzJadQXzjFPwG041yF+Ax3xokb0gWxJjC1aZBI2sHW08Hs9cjPsfFTSrQdyBkfpl6UJ9863i/c6aRQEfDbehBfv9DDKVhDXEYY5wwvy4LJJgvlMZ9eQ7AGIYobWlNCLnWYF6pZklf7DryfKAinEL91E4ToEq0HM+oXguWJP0BsTGx2+flkFP6aYS4TUhRijIJfGa00nxhqdH5qioVgRHX1FnURpDDhy0AFBmArVuLsHBbq9MK4u5X1F56+4McyTjbKUxLiY2ZBQ0nSMupA/3DMt+6tTK+aPm7RCmeTzH6wFUOzY7whfQieO3hnCE+BjOoiwyWJ2bdaXKG4OTZHx74irAve0yjh5ximk1tiQ1egGyd4aATvpvJ7wGgrErAcHnwwr1voJwuc9qMKFpxfBAwFpFWjuTn/kyag3kJFL/mP9uA8wM4PdpwylCzauw99EP8YtKLsItdfy+OsEUSn15JSFXNwDH6F4n1RA51oI6z4202Au8gP6157I4t4=
