@@ -9,8 +9,9 @@ before_install:
 - nvm use 7.10.0
 - google-chrome-stable --headless --disable-gpu --remote-debugging-port=9222 --lang=zh-tw --prefs.intl.accept_languages=zh-tw &
 - npm install -g chrome-har-capturer
-install: 
-- sh run.sh
+install: sh run.sh
+
+deploy:
 - git config --global user.email "$GIT_EMAIL"
 - git config --global user.name "$GIT_NAME"
 - git config --global push.default simple
