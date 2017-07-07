@@ -6,6 +6,6 @@ before_script:
 addons:
   chrome: stable
 before_install:
-- google-chrome-stable --headless --disable-gpu --remote-debugging-port=9222 &
+- google-chrome --headless --disable-gpu --remote-debugging-port=9222 &
 script:
 - run.sh
