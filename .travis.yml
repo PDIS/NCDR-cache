@@ -17,6 +17,7 @@ install:
 - mkdir gh-pages
 - git clone --depth 1 --branch gh-pages https://$GH_TOKEN@github.com/$GH_REPO gh-pages
 - cp -R light/itwapi.ncdr.nat.gov.tw/* gh-pages
+- cd gh-pages
 - git add -A .
 - MESSAGE=`date +\ %Y-%m-%d\ %H:%M:%S`
 - git commit -m "Book updated:$MESSAGE"
