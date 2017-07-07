@@ -1,0 +1,461 @@
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>
+	災害情資網
+</title><link rel="shortcut icon" href="images/ncdrlogo.png" type="image/x-icon" /><link rel="icon" href="images/ncdrlogo.png" type="image/x-icon" />
+    <!--arcgisAPI-->
+   <!--<link rel="stylesheet" type="text/css" href="http://js.arcgis.com/3.16/dijit/themes/claro/claro.css" />--><!--官網(備援用)-->
+   <!--<link rel="stylesheet" type="text/css" href="http://js.arcgis.com/3.16/esri/css/esri.css" />--><!--官網(備援用)-->
+    <link rel="stylesheet" type="text/css" href="/ArcGIS_JSAPI/3.16/js/dojo/dijit/themes/claro/claro.css" /><!--本地端-->
+    <link rel="stylesheet" type="text/css" href="/ArcGIS_JSAPI/3.16/js/esri/css/esri.css" /><!--本地端-->
+    <link rel="stylesheet" href="Scripts/colpick-jQuery-Color-Picker-master/css/colpick.css" type="text/css" /><link rel="stylesheet" href="Content/themes/base/jquery-ui.css" /><link rel="stylesheet" href="CSS/portalAPI.css" /><link rel="stylesheet" href="Scripts/DataTables-1.9.4/media/css/jquery.dataTables.css" /><link rel="stylesheet" href="Scripts/easydialog-v2.0/easydialog.css" />
+
+    <!--參數設定檔-->
+    <script type="text/javascript" src="JS/config.js"></script>
+    <script type="text/javascript" src="Scripts/jquery-2.0.0.min.js"></script>
+    <script type="text/javascript" src="Scripts/jquery-ui-1.10.3.min.js"></script>
+    <script type="text/javascript" src="Scripts/DataTables-1.9.4/media/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="Scripts/easydialog-v2.0/easydialog.min.js"></script> 
+    <script type="text/javascript" src="Scripts/proj4js/proj4js.js"></script>
+    <script type="text/javascript" src="Scripts/proj4js/proj4js-combined.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript" src="Scripts/colpick-jQuery-Color-Picker-master/js/colpick.js"></script>
+    <!--<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyD1xfxIRV5x7eD7u4LuYpgT9VODdUlRS9U&sensor=true"></script>--><!--本機-->
+
+    <!--arcgisAPI-->
+    <!--<script src="http://js.arcgis.com/3.16/"></script>--><!--官網(備援用)-->
+    <script src="/ArcGIS_JSAPI/3.16/init.js"></script><!--本地端-->
+
+    <script type="text/javascript" src="JS/PortalAPI.js?v201705090830"></script>
+    <script type="text/javascript" src="JS/MapUtils.js"></script>
+    <script type="text/javascript" src="JS/PubUtilsForAPI.js"></script>
+    <script type="text/javascript" src="JS/LayerUtilsForAPI.js?v201705090830"></script>
+    <script type="text/javascript" src="JS/LayerLoadForAPI.js?v201706010830"></script>
+    <script type="text/javascript" src="JS/BookmarkAPI.js?v201705090830"></script>
+    <script type="text/javascript" src="JS/MapQry.js"></script>
+    <script type="text/javascript" src="JS/FastLocForAPI.js?v201705090830"></script>
+
+    <!--for中心提供之CCTV程式用-->
+    <!--<script type="text/javascript" src="https://watch.ncdr.nat.gov.tw/mmodel.js"></script>-->
+
+    <script>
+        //Google Analytics
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', gaNoPtl, 'auto');
+        ga('send', 'pageview');
+
+        //google chart
+        google.load("visualization", "1", { packages: ["corechart"] });
+
+        dojoConfig = {
+            locale: "en", //語系
+            parseOnLoad: true
+        };
+
+
+        ///////////////////////////////////////////////////////////////////
+        var oGrpInfo = new Object(); //使用者群組資訊
+        var curDateTime = getCurrentDateTime(); //預設目前時間
+        var curMapBase = "";   //預設地圖底圖
+        var curModule = "A1";  //預設功能模組
+        var curExecTool = "";  //當前操作功能
+        var arrSysEntry = [];
+        var arrFuncList = [];  //圖層選單
+        var arrOpenFuncs = []; //圖例區選單
+        var arrRtuiTbFilter = [];  //客製化表單篩選函式
+        var arrCaseCapData = [];   //警戒資料        
+        var arrCounTown = [];      //縣市鄉鎮資料集
+        var IsRTUIFrmOpen = "N";   //關閉客製化表單
+        var isPPTMode = "N";
+        var isRIDMode = "N";
+        var isMainRightShow = "Y";
+        var CapDataLoaded = 'N'; // 2015/10/13 修改 : 調整頁籤的效能與警戒顯示(Cap是否已Load完)
+
+        var LBS_COUN_ID = "00"; //預設LBS縣市ID
+        var LBS_COUN_NA = "";   //預設LBS縣市名稱
+        var LBS_TOWN_ID = "00"; //預設LBS鄉鎮ID
+        var LBS_TOWN_NA = "";   //預設LBS鄉鎮名稱
+        var LBS_x = 296920;     //LBS預設坐標 定位用
+        var LBS_y = 2767190;    //LBS預設坐標 定位用
+        var oPortalSet, oModTab, oModChart, oModMap, oNcdrEQ, oModMarguee, oWebLink;
+        var oBookmark;
+        var timerChangeMsg; //跑馬燈timer
+        var timerMoveMsg;   //跑馬燈timer
+        var keepChartId; // 2016/01/27 修改：不要讓Chart一直重畫
+
+        var tabsCaseUrlTmp = ''; // 2015/09/07 修改 : 資訊綜覽地區性，暫存資訊的連結
+        var drawHisChart_tmp = {}; // 2015/12/24 補上缺少的變數
+        var currTabElmId;
+        var isMovedCenter = false;
+
+        //地圖/////////////////////////////////////////////////////////////////
+        dojo.require("esri.map");
+        dojo.require("esri.geometry.Circle");
+        dojo.require("esri.layers.graphics");
+        dojo.require("esri.layers.MapImageLayer");
+        dojo.require("esri.layers.KMLLayer");
+        dojo.require("esri.layers.wms");
+        dojo.require("esri.toolbars.edit");  // 2016/01/26 修改，加入畫布
+        dojo.require("esri.tasks.identify");//修改Arcgis JS API升級3.16造成的問題(建構物件時發生錯誤) 2016/07/05 Kevin
+        dojo.require("esri.toolbars.draw");//修改Arcgis JS API升級3.16造成的問題(建構物件時發生錯誤) 2016/07/05 Kevin
+        dojo.require("esri.layers.WebTiledLayer");//因WMTS圖層，故多加入此模組 2016/07/21 Kevin
+
+        esri.config.defaults.io.corsDetection = false; //解决跨域请求
+        esri.config.defaults.io.proxyUrl = 'proxy.ashx';
+
+        var map, loading, lyrTiledMapWorldI;
+        //var divFuncLegend, Print, PrintTask, PrintParameters;
+        var NoEvent_time = 0; // 2015/09/08 修改 : 網頁自動更新機制
+        var urlParaName, urlParaValue;//模板化災情網:網址參數名稱、值 2016/06/27 Kevin
+        var mapID, pageID, cx, cy, scale, info, token, mapControl, addressLocate;
+        var tokenExpired = false;//頁籤API的Token是否過期 2016/11/07 Kevin   
+        var fatDiv = ["#cwbContent"];//存放div的Id(該div的寬度超過預設最小寬度)
+        var homeUrl;
+        
+        function init() {
+            //yolanda 取得當前網址判斷E 政府 是否有登出
+            var url = window.location.toString();
+            if (url.indexOf("?L") != -1) {
+                Logout();
+            }
+            homeUrl = url;
+            console.log(url);
+            //主題圖API:判斷傳入參數 2016/10/27 Kevin
+            //2017-02-24 Marcy GoogleApi Key From response@ieoc.ncdr.nat.gov.tw
+            /*$.ajax({
+                url: "https://www.googleapis.com/urlshortener/v1/url?shortUrl=http://goo.gl/fbsS&key=AIzaSyD1xfxIRV5x7eD7u4LuYpgT9VODdUlRS9U",
+                type: "GET",
+                contentType: "application/json",
+                dataType: "json",
+                success: function (result, status, xhr) {
+                    if (status == "success") {
+                        //取得的 result.longUrl 即為轉換後的 全網址
+                        console.log(result.longUrl);
+                    }
+                }
+            });*/
+            //主題圖API:判斷傳入參數 2016/10/27 Kevin
+            var paras = [];
+            if (url.indexOf("?") != -1) {
+                paras = url.split("?")[1].split("&");
+                for (i = 0; i < paras.length; i++) {
+                    urlParaName = paras[i].split("=")[0];
+                    if (urlParaName == "MapId") {
+                        mapID = paras[i].split("=")[1];
+                    } else if (urlParaName == "PageId") {
+                        pageID = paras[i].split("=")[1];
+                    } else if (urlParaName == "Cx") {
+                        cx = paras[i].split("=")[1];
+                    } else if (urlParaName == "Cy") {
+                        cy = paras[i].split("=")[1];
+                    } else if (urlParaName == "Scale") {
+                        scale = paras[i].split("=")[1];
+                    } else if (urlParaName == "Info") {
+                        info = paras[i].split("=")[1];
+                    } else if (urlParaName == "Token") {
+                        token = paras[i].split("=")[1];
+                    } else if (urlParaName == "MapControl") {
+                        mapControl = paras[i].split("=")[1];
+                    } else if (urlParaName == "AddrLoc") {
+                        addressLocate = paras[i].split("=")[1];
+                    }
+
+                }
+
+                //console.log(mapID);
+                //console.log(pageID);
+                //console.log(cx);
+                //console.log(cy);
+                //console.log(scale);
+                //console.log(info);
+                //console.log(mapControl);
+                //console.log(addressLocate);
+            }
+            //token = 'oGYGjuwR10Ot';
+            var url = "GetData/funcWidget/processTabAPIData.ashx";
+            $.ajax({
+                url: url,
+                type: 'get',                 // post/get
+                data: {
+                    command: 'TabAPIExpiredStatus',
+                    APIToken: token,
+                },
+                dataType: "json",             // xml/json/script/html
+                cache: false,                // 是否允許快取       
+                success: function (data) {
+                    //console.log(data);
+                    //alert('已進行寫入DB');
+                    if (data[0].Status == "Y") {
+                        chkLoginStatus();
+                    } else {
+                        alert("金鑰過期，請至災害情資網申請");
+                        window.location = 'http://eocdss.ncdr.nat.gov.tw/ncdrwebv2/';
+                    }
+                },
+                error: function (err) {
+                    //alert(err);
+                    alert('讀取DB失敗');
+                }
+            });
+        }
+
+        // 2015/09/08 修改 : 網頁自動更新機制 Start
+        function auto_Update() {
+            if (NoEvent_time >= (PgReloadMin * 60)) { //要閒置15秒才會執行，避免使用者正在操作時自動更新
+                // 自動更新
+                location.reload();
+                // 秒數歸零
+                NoEvent_time = 0;
+            }
+        }
+        // 2015/09/08 修改 : 網頁自動更新機制 End
+
+        dojo.ready(init);
+
+        // 2015/09/08 修改 : 網頁自動更新機制 Start
+        setInterval(function () { NoEvent_time++; }, 1000);
+        $(document).keydown(function (e) { NoEvent_time = 0; });
+        $(document).mouseover(function (e) { NoEvent_time = 0; });
+        $(document).mousedown(function (e) { NoEvent_time = 0; });
+
+        // 滾輪事件  
+        if ('onmousewheel' in window) {
+            window.onmousewheel = MouseWheel;
+        } else if ('onmousewheel' in document) {
+            document.onmousewheel = MouseWheel;
+        } else if ('addEventListener' in window) {
+            window.addEventListener("mousewheel", MouseWheel, false);
+            window.addEventListener("DOMMouseScroll", MouseWheel, false);
+        }
+
+        function MouseWheel() {
+            NoEvent_time = 0;
+        }
+
+        //setInterval('auto_Update()', 1000);
+        // 2015/09/08 修改 : 網頁自動更新機制 End
+
+    </script>
+</head>
+<body>
+    <div id="divAddressSearch" style="width: 400px; position: absolute; z-index: 100;">
+        <div id="addressSearchPanel" style=" background-color: #1EB5C3;opacity:0.95;height:40px;width:330px;">
+            <img id="addressUnitLogo" src="images/FuncList/location.png" style="position:relative;left:5px;padding-top: 5px;cursor:pointer;height:30px;width:30px;" />
+            <div id="addressSearch" style="height: 20px; width: 280px; position: relative; top: -40px; left: 42px;">
+                <div id="addressContent" style="width: 280px; height: 30px; position: relative; bottom: 1px;top:5px; border: 1px #BFBFBF solid; background-color: white; display: inline-block;">
+                    <input type="text" id="txtLocKeyWord" placeholder="快速定位，請輸入門牌位址" style="border: none; font-size: 12px;position:relative;left:5px;bottom:1px;height:25px;width:250px;" />
+                     <img id="closeSearchResult" src="images/other/close.png" style="cursor: pointer; position: relative; left: 2px;top:6px; width: 20px; height: 20px;display:none;" />
+                    <img id="addressSearchIcon" src="images/FuncList/addressSearch.png" style="cursor: pointer; position: relative; left: 2px;top:6px; width: 20px; height: 20px;" />                   
+                </div>
+                <div id="addressResult"></div>
+                
+            </div>
+        </div>
+
+    </div>
+    <!-- Banner -->
+    <!-- 2015/10/21 修改跑馬燈位置 -->
+    <div id="divBanner">
+        <img src="images/Portal/PrizeMark.jpg" style="vertical-align: middle;width:50px;height:50px;" alt="資訊月百大創新產品金質獎加冕標章" title="資訊月百大創新產品金質獎加冕標章" /> <!--2015/10/15 修改-->
+        <img src="images/Portal/BannerLogo.png" style="vertical-align: middle;" />
+        <span id="BannerText" style="line-height:72px; padding-right:5px;"></span>
+        <span id="spanOnlineP" style="font-size:10px;"></span>
+        <img id="imgBrowseCount" src="images/other/BrowseCount.png" title="瀏覽人次" style="vertical-align:middle"/>
+        <span id="sUserName" style="position:absolute;left:285px; top:47px; font-size:8px; display:none">Welcome，</span>
+   
+        <!-- 其他連結 -->
+        <div class="OthLink">
+            <span id="btnNCDREQ" style="cursor:pointer;display:none;color:#E40A0A;">防災速報</span>
+            <span>|</span><a href="http://satis.ncdr.nat.gov.tw/eqsms/index.html" target="_blank">近期地震</a>
+            <span>|</span><a href="WebLink/JudgePdfList.aspx" target="_blank">情資研判下載</a>
+            <span>|</span><a id="aWebLink">相關連結</a>
+            <div id="selfInfo" style="display:none"><span>|</span><img src="images/Portal/self_info_16pixl.png" style="position:relative;top:2px;" /><a id="selfInfoLink" style="padding-right:5px;font-size:11pt;font-family: Arial,微軟正黑體,Microsoft JhengHei;color:#056FB8;">個人資料</a></div>
+        </div>
+
+        <!-- 功能選單列 -->
+        <div style="display:none;position:absolute; right:20px; top:35px;">
+            <span class="AreaSelect">
+                <img src="images/Portal/locateCounTown.png" style="vertical-align:middle"/>
+                <span style="vertical-align:middle">縣市</span>  <select id="selCounty"></select>
+                <span style="vertical-align:middle">鄉鎮</span>  <select id="selTownship"></select>
+            </span>
+            <span class="SysLogin">
+                <img src="images/Portal/login.png" style="vertical-align:middle"/>
+                <a id="aLogin" style="padding-right:5px;" onclick="switchObjDisplay('divLogin');">輔助系統登入</a>
+            </span>
+            <span class="SysLogout" style="display:none">
+                <img src="images/Portal/login.png" style="vertical-align:middle"/>
+                <a id="aLogout" style="padding-right:5px;";>登出</a>
+            </span>
+        </div>            
+    </div> 
+
+    <!--跑馬燈-->
+    <img id="MargueePic" src="images/Portal/MargueePic.png" style="position:absolute;left:0px; top:82px;width:28px;height:25px;display:none;"  />
+    <div id="divMarguee"></div>
+    <!--登入後建議修改個資 2016/06/14 Kevin-->
+    <div id="InfoChangeAlert">
+        <div id="InfoChangeAlertTilte">系統提醒</div>
+        <div id="InfoChangeAlertDesc">小提醒!  <div id="userID" style="display:inline;"></div>  帳號的Email未填寫完畢，建議至 本網頁右上角的   <div style="display:inline"><img src="images/Portal/self_info_16pixl.png" style="position:relative;top:2px;" /><span style="padding-right:5px;font-size:11pt;font-family: Arial,微軟正黑體,Microsoft JhengHei;color:#056FB8;">個人資料</span></div>
+            填寫，確保系統操作權益唷!謝謝!    
+            <div style="height:10px;"></div> 
+              <div><div id="changeUserInfo" style="display:inline;position:relative;left:210px;background-color:#AAAAAA;padding:5px;border-radius:5px;cursor:pointer;">立即修改</div><div id="hideInfoChangeAlert"  style="display:none;position:relative;left:100px;background-color:#AAAAAA;padding:5px;border-radius:5px;cursor:pointer;">下一次</div></div>       
+        </div>      
+    </div>
+    <!-- Main -->
+    <div id="divMain" style="position:absolute; top:100px; left:0px; margin:0px;width:100%;">
+        <div id="mainCenter" style="width:100%;position:absolute; left:0px;">
+            <div id="tabMenu" style="position:absolute;left:0px; top:0px; width:100%;">
+                <div style="position:absolute; right:0px; bottom:1px; height:25px;">
+                    <img id="SubTabPrev" src="images/widgetBookMark/left.png" style="vertical-align: middle;padding-right: 10px; cursor:pointer" />
+                    <img id="SubTabNext" src="images/widgetBookMark/right.png" style="vertical-align: middle;padding-right: 10px; cursor:pointer"  />
+                </div>
+            </div>
+
+            <div id="C2" style="position:absolute;left:0px;top:55px;margin:0px auto; background:#fff; height:485px; width:100%; ">
+               <!--跑馬燈-->
+               <!--<div id="divMarguee"></div>-->
+
+               <!--地圖-->
+               <div id="map" style="position:absolute;left:0px; top:0px;width:100%; height:100%;padding: 0;margin: 0;">
+                    <div id="btnLBS"><img id="imgLBS" src="images/Portal/locate.png" /></div>
+                    <div id="btnCapture"><img id="imgCapture" src="images/Portal/capture.png" /></div>
+                   
+                    <img id="loadingImg" src="images/loading.gif" style="position: absolute; top: 50%; left: 50%; z-index: 100;" />
+                    <!-- 2015/07/30 示警平台前台 Start -->
+                   <div id="MegDivSimple" class="MegDivSimpleClass" style="height:27px;">
+                       <div id="MegDivSimpleCtrl" class="MegDivCtrlClass" onclick="setMegDivShow(this);" >
+                           <img src="images/Toolbar/NCDR_Warn.gif" style="width:15px;height:15px;vertical-align:bottom;margin-right:5px;padding-bottom:2px;" />示警通知
+                       </div>
+                       <div style="height:260px;width:240px;position:absolute;top:35px;overflow-y:auto;padding-top:10px;"></div>
+
+                       <!-- 2015/09/08 修改 : 網頁自動更新機制 -->
+                       <input type="button" id="MegReload" value="請按此更新" 
+                           style="position:absolute;top:260px;left:5px;z-index:100;background-color:#2D2828;opacity:0.8;border:0;cursor:pointer;
+                                  border-radius:10px 10px;width:80px;height:28px;font-size:8pt;color:#fff;display:none;" 
+                           onclick="reloadLimitData();" />
+
+                   </div>
+                   <audio preload="metadata" id="audioMp3">
+                       <source src="audio/LINE提示音效.mp3" type="audio/mpeg" />
+                   </audio>
+                   <!-- 2015/07/30 示警平台前台 End -->
+                    <!--圖例區-->
+                    <div id="btnFunLegend" style="display:none;position: fixed; left: 20px; bottom: 51px; z-index: 3; height: 24px; width: 25px; background-color: #fff;border-radius:5px 0px 0px 5px;">
+                        <img src="images/FuncList/api_layerIcon_control.png" style="cursor:pointer;border-radius:5px 0px 0px 5px;" title="開啟圖例" onclick="switchObjDisplay('divFuncLegend');" />
+                    </div>                   
+                    <div id="buttonLocateHome">
+                        <img src="images/Portal/HomeButton.png" style="cursor:pointer;border-radius:0px 5px 5px 0px;" title="定位到書籤初始設定" />
+                    </div>
+                   <div id="buttonOpenWindow">
+                        <img src="images/FuncList/fullScreen.png" style="cursor:pointer;height:18px;width:18px;position:relative;left:3px;top:3px;" title="開新視窗" />
+                    </div>
+                </div> 
+                <div id="btnExpand"><img src="images/Portal/expandTabCases.png" /></div>
+                
+               <!--IMG-->
+               <div id="divImg" style="width:100%; height:100%; overflow:hidden; display:none" ></div>
+
+               <!--GME--><!-- 2015/11/06 不使用這個iframe  -->
+               
+            </div>
+        </div> 
+ 
+       
+
+                <!-- 地圖畫家 // 2016/01/26 修改，加入畫布 -->
+        <div id="divMapPainter" style="position: absolute; display: none"></div>
+    </div>
+
+    <!-- 登入 -->
+    <div id="divLogin">
+        <form id="frmLogin" name="frmLogin" method="post">
+            帳號：<input id="txtAccount" type="text" value="" /><br />
+            密碼：<input id="txtPassword" type="password" value="" /><br />
+            <input id="btnLogin" type="button" value="登入" /><br />
+            <div><input id="btnSinLogin" type="button" value="E政府登入" style="width:80px;" />     <input id="btnEMICLogin" type="button" value="EMIC登入" style="width:80px;" /></div>
+            <div id="applyAcc" style="display:inline;"><input id="btnApplyAccount" type="button" value="帳號申請" style="color:#1EB5C3;background-color:white;border:none;text-decoration:underline;font-size:13.5px;cursor:pointer;width:60px;padding-right: 59px;" /></div>
+            |    <div id="pwForget" style="display:inline;"><input  type="button" value="忘記密碼" style="color:#1EB5C3;background-color:white;border:none;text-decoration:underline;font-size:13.5px;cursor:pointer;width:60px;padding-right: 59px;" /></div><!-- 2016/05/03 加入忘記密碼連結 2016/05/10  修改按enter後跳出查詢密碼視窗問題 Kevin-->
+            <div style="color:#f00; font-size:10px; line-height: 15px;">(本系統目前僅提供政府應變人員使用，暫不接受一般民眾申請)</div>
+        </form>
+    </div>
+    <div id="mainRight" style="width: 250px; height: 100%; position: absolute; right: 0px; opacity: 0.95;background-color:#E6E7E9;overflow-y:auto;overflow-x:hidden;font-size:12px;font-family:'微軟正黑體','Microsoft JhengHei';display:none;">
+            <div id="R1" style="width:100%; margin:0px auto; padding:0; background:#fff;border:none;">
+                
+                    <!--<div style="height: 51px;line-height:51px;">資訊綜覽<div style="display:inline-block;font-size:40px;height:51px">-</div></div>-->
+                <div id="tabInfo" href="#tabsCase" class="closeTab">資訊綜覽
+                        <div id="closeTabsCase" class="closeTabsContent">&#9650;</div>                     
+                        <div id="openTabsCase" class="openTabContent">&#9660;</div>
+                        </div>
+                          
+                <div id="tabsCase" class="tabsBmk">
+                <!--資訊區-->
+                </div>
+            </div>
+         <div id="divFuncLegend">
+                        <div id="mapInfo" class="closeTab">
+                            <div style="padding: 5px 5px 5px 17px;font-size:12px;">
+                                地圖資訊     
+                                <div id="closeMapInfo" class="closeTabsContent">&#9650;</div>                     
+                             <div id="openMapInfo" class="openTabContent">&#9660;</div>                           
+                            </div>
+                             
+                            
+                        </div>
+                        <div id="divOpenFunc"></div>
+              </div>
+           
+        </div> 
+    <div id="ncdrMarker" style="position:absolute;font-size:12px;color:#fff;left:0px;bottom:0px;width:225px;background:#030812;opacity:0.95;font-family:'微軟正黑體','Microsoft JhengHei';">
+        <div style="display:inline-block;">
+            <img id="NcdrLogo" src="images/Toc/Legend1/ncdrLogo.png" style="position:relative;left:5px;padding-top: 5px;cursor:pointer;height:25px;width:25px;"  title="開啟災害情資網"/>
+        </div>
+        <div style="display:inline-block;position:relative;left:5px;bottom:8px;">
+            <a title="開啟災害情資網" style="cursor:pointer">NCDR 國家災害防救科技中心</a>
+        </div>
+    </div>
+    <!-- Footer -->
+    <div id="divFooter">
+        <table>
+            <tr>
+                <td><img src="images/Portal/FooterLogo.png" style="vertical-align: middle;" /></td>
+                <td>NCDR國家災害防救科技中心 災害情資網<br/>National Secience and Technology Center for Disaster Reduction</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>建議使用瀏覽器：Chrome、IE10。</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- 災情綜覽 -->
+    <div id="divNCDREQ" style="display: none">
+        <img id="NCDREQClose" src="images/Portal/close.png" alt="關閉" style="top:3px;right:3px; cursor:pointer;position:absolute;" onclick="" />
+        <div id="divNCDREQTitle" style='top:5px; left:10px;color:#fff;position:absolute;font-size:12pt;'></div>
+        <div id="divEqPict" class="EqPict"></div>
+        <div id="divEqItme" class="EqItme"></div>
+    </div>
+
+    <!-- 街景 20161012 Kevin -->
+     <div id="streetview" style="width: 350px;height: 350px;position: absolute;display: none;z-index :99999;">
+        <div style="background-color: #0094ff;color:#ffffff;height:25px;font-family:微軟正黑體;font-weight: bold;text-align:center;padding-top:5px;">街景查詢</div>        
+        <img src="images/other/關閉視窗off.png" title="關閉" style="position: absolute; cursor: pointer;top:5px;right:5px;" onclick="oMapQry.closeStreetView();" />
+        <div id="streetviewDiv" style="width: 100%;height:325px;text-align:center;"></div>
+    </div>
+
+    <!--顯示更多 -->
+    <div id="divChartMore" style="display: none"></div>
+    <div id="divMargueeMore" style="display: none"></div>
+    <div id="divWebLink" style="display: none"></div>
+    <div id="btnToggle"><img id="imgToggle" src="images/portal/expandTabCases.png" /></div>
+</body>
+</html>

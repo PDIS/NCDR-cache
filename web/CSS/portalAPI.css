@@ -1,0 +1,1133 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #E9E8E6;
+    overflow-x: hidden;
+    /*overflow-y: hidden;*/
+    font-family: Arial,"微軟正黑體","Microsoft JhengHei";
+    /*font-size: 14px;*/
+}
+
+select {           
+   font-size: 12px;
+   font-family: "微軟正黑體","Microsoft JhengHei";
+}
+
+/*esri樣式*/
+.esriSimpleSliderTR {
+    top: 35px;
+    right: 5px;
+}
+
+.zoomTo {
+    display: none;
+}
+
+.maximize {
+    display: none;
+}
+
+a
+{
+    /*color:#4493CB;*/
+    text-decoration: none;
+    cursor:pointer;
+}
+
+#divBanner {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    /*height: 90px;*/ /* 2015/10/21 修改跑馬燈位置 */
+    height: 72px; /* 2015/10/21 修改跑馬燈位置 */
+    background: #fff;
+    /*line-height: 90px;*/
+    border-top: 10px solid #1EB5C3;
+    border-bottom: 1px solid #CACACA;
+    padding: 0px 5px 0px 10px;
+    display:none;
+}
+    #divBanner .OthLink {
+        position:absolute; 
+        right:20px; 
+        top:5px;
+        display:none;
+    }
+        #divBanner .OthLink span, #divBanner .OthLink a {
+            padding-right: 5px;
+            font-size: 11pt;
+            font-family: Arial,"微軟正黑體","Microsoft JhengHei";
+            color: #7F7F7F;
+        }
+
+    #divBanner .AreaSelect, #divBanner .SysLogin, #divBanner .SysLogout{
+        margin-right: 5px;
+        padding-right: 5px;
+        padding-top: 3px;
+        border: 1px solid #CACACA;
+        border-radius: 4px;
+        display: inline-block;
+        background: #1EB5C3;
+        color:#fff;
+    }
+        #divBanner .AreaSelect select,#divBanner .SysLogin select {
+            height: 22px;
+            border: 1px solid #CACACA;
+            border-radius: 2px;
+            font-size: 11pt;
+            font-family: Arial,"微軟正黑體","Microsoft JhengHei";
+        }
+
+#BannerText {
+    color: #004B8F;
+    font-weight: bold;
+    font-size: 22pt;
+    vertical-align: middle;
+}
+
+#divFooter {
+    position: absolute;
+    bottom: -70px;
+    width: 100%;
+    height: 70px;
+    background: #E5E4E2;
+    border-top: 1px solid #CACACA;
+}
+    #divFooter table {
+        padding-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: left;
+        font-size: 12px;
+        color: #656563;
+    }
+
+/*LBS按鈕*/
+#btnLBS {
+    position: absolute;
+    top: 105px;
+    right: 5px;
+    width: 30px;
+    z-index: 30;
+    height: 30px;
+    background: #fff;
+    border: 2px solid gray;
+    border-radius: 4px;
+    line-height: 27px;
+    text-align: center;
+    display:none;
+}
+
+/*截圖按鈕*/
+#btnCapture {
+    position: absolute;
+    top: 137px;
+    right: 5px;
+    width: 30px;
+    z-index: 30;
+    height: 30px;
+    background: #fff;
+    border: 2px solid gray;
+    border-radius: 3px;
+    line-height: 27px;
+    text-align: center;
+    display:none;
+}
+    #btnLBS img, #btnCapture img {
+        width: 22px;
+        vertical-align: middle; 
+        cursor:pointer; 
+    }
+/*右側資訊綜覽縮放 2016/08/15 Kevin*/
+#btnExpand {
+    position: absolute;
+    top: 205px;
+    right: 5px;
+    display:none;
+    z-index: 30;
+    /*width: 30px;
+    height: 100px;   
+    border: 2px solid gray;
+    border-radius: 4px;
+    line-height: 27px;
+    text-align: center;    
+    background-color:#0094FF;
+    border-color:#0094FF;
+    color:white;*/
+    cursor: pointer;
+}
+/*右側縮放 2017/5/15 Kevin*/
+#btnToggle{
+    position: absolute;
+    top: 0px;
+    right: 250px;
+    display:none;
+    z-index: 30;  
+    cursor: pointer;
+}
+
+#hideRightMain {
+    font-size:24px;
+    font-weight:bold;
+}
+#showRightMain {
+    display:none;
+    font-size:24px;
+    font-weight:bold;
+}
+
+
+
+/*登入頁*/
+#divLogin {
+    width: 200px;
+    position: absolute;
+    top: 83px;
+    right: 10px;
+    border: 1px solid #CACACA;
+    padding: 3px;
+    background: #fff;
+    text-align: center;
+    line-height: 30px;
+    display: none;
+    z-index: 99;
+}
+    #divLogin form {
+        font-size: 14px;
+        /*text-align: left;*/
+        color:#1EB5C3;
+    }
+    #divLogin .mask {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        background-color: rgba(255,255,255,0.5);
+        width: 100%;
+        height: 100%;
+        font-size: 16px;
+    }
+    #divLogin input[type='text'], input[type='password'] {
+        width: 110px;
+        padding: 2px 5px 4px 5px;
+        font-family: Arial,"微軟正黑體","Microsoft JhengHei";
+    }
+    #divLogin input[type='button'] {
+        width: 165px;
+        height: 25px;
+        padding: 2px 5px 4px 5px;
+        background-color: #1EB5C3;
+        border: 1px solid #1EB5C3;
+        color: #fff;
+        font-family: Arial,"微軟正黑體","Microsoft JhengHei";
+    }
+    #divLogin a{
+        display:block;
+        padding: 0px 2px 0px 2px;
+    }
+        #divLogin a:hover {
+            background: #4493CB;
+            color: #fff;
+        }
+
+/*防災速報*/
+#divNCDREQ {
+
+    margin: 0px 0px 0px 0px; /*上右下左*/
+    padding: 0px 0px 0px 0px; /*上右下左*/
+    position: fixed;
+    width: 600px;
+    height: 500px;
+    border: 2px solid #87A1A6;
+    border-radius: 10px;
+    background-color: #046EB8;
+    opacity: 1;
+    font-size: 12px;
+    line-height: 20px;
+}
+    #divNCDREQ .EqPict {
+        border: 1px solid #808080;
+        background-color: #fff;
+        position:absolute;
+        top:31px;
+        left:3px;
+        width: 330px;
+        height: 440px;
+        overflow: auto;
+    }
+    #divNCDREQ .EqItme {
+        border: 1px solid #808080;
+        background-color: #fff;
+        position:absolute;
+        right:3px;
+        top:31px;
+        width: 258px;
+        height: 440px;
+    }
+
+#divNCDREQ .btnNCDREQon{
+    text-decoration:underline;color:#046EB8;
+    cursor: pointer;margin:15px;height:18px;font-size:20px;
+}
+#divNCDREQ .btnNCDREQ{
+    color:#000;
+    cursor: pointer;margin:15px;height:18px;font-size:20px;
+}
+
+/*跑馬燈*/
+/* 2015/10/21 修改跑馬燈位置 */
+#divMarguee {
+    position:absolute; 
+    /*top:0px;*/ 
+    top:82px; 
+    left:28px;
+    width:98.4%; 
+    /*height: 35px;*/ 
+    height: 25px;  
+    /*line-height: 35px;*/ 
+    line-height: 25px; 
+    /*background-color: rgba(0,0,0,0.5);*/ 
+    background-color: #FFF3F3;
+    opacity:0.9; 
+    /*color: #FF0;*/
+    color: #AE0001;
+    z-index:31;
+    overflow: hidden;
+    display:none;
+    font-size:11pt;
+}
+    #divMarguee div {
+        /*cursor: pointer;*/
+        /*padding-left:10px;*/
+        margin-left: 5px;
+        margin-right: 5px;        
+        /*height: 35px;*/
+        height: 25px; 
+        /*line-height: 35px;*/
+        line-height: 25px;
+        /*border-bottom: 1px dotted #6E6E6E;*/
+        white-space:nowrap; /*不換行*/
+        text-overflow:ellipsis; /*超出邊界顯示...*/
+        /*text-decoration:underline;*/
+        overflow:hidden;    
+    }
+/*顯示更多跑馬燈*/ 
+#divMargueeMore
+{
+    margin: 0px 0px 0px 0px; /*上右下左*/
+    padding: 0px 0px 0px 0px; /*上右下左*/
+    position: fixed;
+    width: 600px;
+    height: 90%;
+    border: 2px solid #87A1A6;
+    border-radius: 10px;
+    background-color: #fff;
+    opacity: 1;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+/*相關連結*/
+#divWebLink
+{
+    margin: 0px 0px 0px 0px; /*上右下左*/
+    padding: 0px 0px 0px 0px; /*上右下左*/
+    position: fixed;
+    width: 500px;
+    height: 500px;
+    border: 2px solid #87A1A6;
+    border-radius: 10px;
+    background-color: #fff;
+    opacity: 1;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+
+/*客製化表單 begin *************************************/
+/*客製化表單*/
+.openRtuiDiv
+{
+    position: relative;
+    /*top: 50px;
+    left: 50px;
+    border: 1px solid #87A1A6;
+    border-radius: 5px;*/
+    background-color: #fff;
+    font-size: 14px;
+    opacity: 1;
+    z-index: 3;
+}
+
+/*客製化表單歷線圖*/
+.viewRT_History { 
+    margin: 0px;
+    padding: 0px;
+    position: absolute; 
+    top:105px; 
+    left:10px;    
+    border: 2px solid #87A1A6;
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 13px;
+    z-index:3;
+
+}
+
+/*客製化表單TIP*/
+.RT_tooltip
+{
+    position: absolute;
+    font-size: 12px;
+    border: 1px solid #87A1A6;
+    border-radius: 3px;
+    margin: 0px;
+    padding: 5px;
+    background-color: rgba(0, 118, 173, 0.8);
+    color:#fff;
+}
+/*客製化表單 begin *************************************/
+
+
+/*書籤頁籤樣式 begin *************************************/
+ul, li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#tabMenu {
+    margin:5px auto; 
+    padding: 0;
+    background:#96F2F2; 
+    border: none; 
+    overflow: hidden;
+}
+
+#tabMenu ul.tabs {
+	margin: 0;
+	padding: 0;
+    padding-bottom:3px;
+    border-width: 0px 0px 1px 0px;
+    border-radius: 0px 0px 0px 0px;
+    background: #96F2F2;
+}
+    #tabMenu ul.tabs li {
+	    float: left;
+        width:120.2px;
+	    height: 27px;
+	    overflow: hidden;
+	    position: relative;
+        margin: 0px 0px -2px 0px;
+        padding-bottom: 1px;
+	    /*border: 1px solid #6E6E6E;
+	    border-left: none;*/
+	    background: #96F2F2;
+    }
+        #tabMenu ul.tabs li.ui-tabs-active {
+            background: #96F2F2;
+            /*border: 1px solid #046EB8;
+            border-bottom: none;*/
+        }
+        #tabMenu ul.tabs li.ui-tabs-active a {
+            /*background: #0094FF;*/
+            /*background: #3FADFA;
+            color: #fff;*/
+        }
+         #tabMenu ul.tabs li.ui-tabs-active span {
+            background: #1EB5C3;
+            /*background: #3FADFA;
+            color: #fff;*/
+        }
+
+          #tabMenu ul.tabs li.ui-tabs-active div {
+            background: #1EB5C3;
+            /*background: #3FADFA;
+            color: #fff;*/
+        }
+        #tabMenu ul.tabs li.active {
+            background: #96F2F2;
+            /*border-bottom: 1px solid #fff;*/
+        }
+
+        #tabMenu ul.tabs li{
+            background: #96F2F2;
+        }
+        #tabMenu ul.tabs li a {
+            margin: 0;
+            padding: 0;
+            width: 121px;
+            height: 27px;
+            line-height: 28px;
+            text-align: center;
+            font-size: 11pt;
+            font-family: Arial,"微軟正黑體","Microsoft JhengHei";
+            font-weight: bold;
+            color: #404040;
+            
+        }
+        #tabMenu ul.tabs li a:hover {
+            /*background: #3FADFA;*/
+        }
+
+        #tabMenu ul.tabs li div:hover {
+            background: #1EB5C3;
+        }
+
+#tabMenu .tabsBmk {
+    position: relative;
+    width: 100%;
+    padding-top: 0.5px;
+    padding-bottom: 5px;
+    background: #1EB5C3;
+    border-radius: 0px 0px 0px 0px;
+    white-space: nowrap;
+    font-size: 0px;
+    border: 1px solid #1EB5C3;
+    /*overflow-x: auto;
+    overflow-y:hidden;*/
+}
+    #tabMenu .tabsBmk a {
+        display: inline-block;
+        width: 120px;
+        height: 22px;
+        line-height: 22px;
+        background: #1EB5C3;
+        /*border: 1px solid #6E6E6E;
+        border-top: none;
+        border-left: none;
+        border-bottom: none;*/
+        text-align:center;
+        font-size: 14px;
+        font-family: Arial,"微軟正黑體","Microsoft JhengHei";
+        color: #046EB8;
+    }
+    #tabMenu .tabsBmk a:hover {
+        /*background: #3FADFA;*/
+    }
+    #tabMenu .tabsBmk span:hover {
+        background: #00DAD9;
+        width:110px;
+    }
+    .spanHover {
+        background: #00DAD9;        
+        width:110px;
+    }
+    .divHover {
+        background: #1EB5C3;        
+        width:110px;
+    }
+    .altItem {
+        background: #C7310C;        
+        width:110px;
+    }
+    #tabMenu .tabsBmk a.tabsBmk-active {
+        /*background: #0094FF;*/
+       /* background: #3FADFA;*/
+    }
+    #tabMenu .tabsBmk div.tabsBmk-active {
+        background: #0094FF;
+       /* background: #3FADFA;*/
+    }
+    #tabMenu .tabsBmk span.tabsBmk-active {
+        /*background: #0094FF;*/
+        background: #00DAD9;
+        width:110px;
+    }
+    #tabMenu a.IsAlt{
+        /*background: #BB0D33;*/
+    }
+    #tabMenu ul.tabs li.IsAlt div{
+        /*background: #BB0D33;*/
+    }
+    
+
+/*書籤頁籤樣式 end *************************************/
+
+
+/*資訊綜覽頁籤樣式 begin *************************************/
+#R1 ul.tabs {
+	margin: 0;
+	padding: 0;
+    border-width: 0px 0px 1px 0px;
+    border-radius: 40px 40px 0px 0px;
+    background: #fff;
+}
+    #R1 ul.tabs li {
+	    float: left;
+        width:300px;
+	    height: 16px;
+	    overflow: hidden;
+	    position: relative;
+        margin: 0px 0px -1px 0px;
+        padding-bottom: 18px;
+	    border: 1px solid #999;
+	    border-left: none;
+	    background: #CACACA;
+    }
+        /*#R1 ul.tabs li.ui-tabs-active, #R1 ul.tabs li.ui-tabs-active a {
+            background: #1EB5C3;
+            border: none;
+        }*/
+        .closeTab{
+            background: #E6E7E9;
+            /*border-top: 1px solid #999;*/
+            border-bottom: 1px solid #999;
+            font-family:"微軟正黑體","Microsoft JhengHei";     
+            font-size:12px;
+        }
+        .openTab{
+            background: #1EB5C3;        
+            font-family:"微軟正黑體","Microsoft JhengHei";     
+            font-size:12px;
+            border:none;
+        }
+        #R1 ul.tabs li.active {
+            background: #fff;
+            /*border-bottom: 1px solid #fff;*/
+        }
+
+        #R1 ul.tabs li a {
+            margin: 0;
+            padding: 0;
+            width: 300px;
+            height: 35px;
+            line-height: 35px;
+            
+            font-size: 10.5pt;
+            font-family: Arial,"微軟正黑體","Microsoft JhengHei";            
+            /*color: #fff;*/
+            /*background: #CACACA;
+            border-radius:4px 4px 0 0;*/
+            padding-left:15px;
+        }
+       
+
+#R1 div {
+    
+    
+    
+}
+#R1 #tabsCase {
+    overflow-x:hidden;
+    overflow-y:auto;
+    font-family:"微軟正黑體","Microsoft JhengHei";
+    line-height: 22px;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom: 1px solid #999;
+}
+/*資訊綜覽頁籤樣式 end *************************************/
+
+
+/*統計圖 begin *************************************/
+/*頁籤樣式*/
+#R2 ul.tabs {
+	margin: 0;
+	padding: 0;
+    border-width: 0px 0px 1px 0px;
+    border-radius: 0px 0px 0px 0px;
+    background: #96F2F2;
+}
+    #R2 ul.tabs li {
+	    float: left;
+	    height: 20px;
+	    overflow: hidden;
+	    position: relative;
+        margin: 0px 0px -1px 0px;
+        padding-bottom: 1px;
+	    /*border: 1px solid #6E6E6E;*/
+	    border-left: none;
+	    /*background: #999999;*/
+    }
+        #R2 ul.tabs li.ui-tabs-active, #R2 ul.tabs li.ui-tabs-active a {
+            background: #1EB5C3;
+            color: #fff;
+        }
+        #R2 ul.tabs li.active {
+            background: #fff;
+            border-bottom: 1px solid #fff;
+        }
+
+        #R2 ul.tabs li a {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 20px;
+            line-height: 23px;
+            text-align: center;
+            font-size: 11pt;
+            font-family: Arial,"微軟正黑體","Microsoft JhengHei";
+            color: #5F5F5D;
+            background: #96F2F2;
+        }
+        #R2 ul.tabs li a:hover {
+            background: #1EB5C3;
+        }
+
+/*Chart顯示更多*/
+#divChartMore
+{
+    margin: 0px 0px 0px 0px; /*上右下左*/
+    padding: 0px 0px 0px 0px; /*上右下左*/
+    position: fixed;
+    width: 90%;
+    height: 90%;
+    border: 2px solid #87A1A6;
+    border-radius: 10px;
+    background-color: #fff;
+    opacity: 1;
+    font-size: 12px;
+    line-height: 20px;
+}
+/*統計圖 end *************************************/
+
+        
+/*圖例區************************************************/
+#divFuncLegend
+{
+    margin: 0px 0px 0px 0px; /*上右下左*/
+    padding: 0px 0px 0px 0px; /*上右下左*/    
+    
+    width:100%;
+    /*height: 32.8%;*/
+   
+   
+    opacity: 1;
+    font-size: 12px;
+    line-height: 20px;
+    z-index: 3;
+}
+
+/*圖層清單容器*/
+#divOpenFunc
+{
+    /*height: 210px;*/
+    overflow-y: auto;
+    background-color: #fff;
+}
+    /*圖層項目*/
+    #divOpenFunc div
+    {
+        /*line-height:30px;*/
+        /*height:30px;*/
+        /*margin: 0px 5px 0px 5px;*/ /*上右下左*/
+        padding: 5px 15px 5px 5px; /*上右下左*/
+        border-bottom: 1px solid #999;
+    }
+
+/*圖層圖示*/
+.OpnFunc img
+{
+    width: 18px;
+    vertical-align: middle;
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+.OpnFunc input
+{   
+    vertical-align: middle;  
+}
+
+/*透明度容器*/
+.Opa
+{
+    position: absolute;    
+    /*height: 7%;*/
+    width: 220px;
+    border: 1px solid #B3B3B3;
+    border-radius: 5px;
+    background-color: #E8F4F7;
+    line-height: 20px;
+    display: none;
+    z-index: 100;
+}
+    /*透明度圖示*/
+    .Opa img
+    {
+        width: initial;
+        padding-left: 2px;
+    }
+    /*透明度箭頭外框*/
+    .Opa s
+    {
+        position: absolute;
+        top: -12px;
+        right: 25px;
+        display: block;
+        height: 0;
+        width: 0;
+        font-size: 0;
+        line-height: 0;
+        border-color: transparent transparent #888 transparent;
+        border-style: dashed dashed solid dashed;
+        border-width: 6px;
+    }
+    /*透明度箭頭*/
+    .Opa i
+    {
+        position: absolute;
+        top: -5px;
+        left: -6px;
+        display: block;
+        height: 0;
+        width: 0;
+        font-size: 0;
+        line-height: 0;
+        border-color: transparent transparent #E8F4F7 transparent;
+        border-style: dashed dashed solid dashed;
+        border-width: 6px;
+    }
+/*******************************************************/
+
+
+/*帶箭頭div提示框 begin ***********************************/
+.mwt_border {
+    text-align: center;
+    background: #fff;
+    position: absolute;
+    border: solid 1px #333;
+    border-radius: 5px;
+    padding: 10px;
+    z-index: 3;
+}
+    /*箭頭右*/
+    .mwt_border .arrow_r_int {
+        width: 0px;
+        height: 0px;
+        border-width: 10px;
+        border-style: solid;
+        border-color: transparent transparent transparent #333;
+        position: absolute;
+        top: 20%;
+        right: -20px;
+    }
+    /*箭頭右-邊框*/
+    .mwt_border .arrow_r_out {
+        width: 0px;
+        height: 0px;
+        border-width: 10px;
+        border-style: solid;
+        border-color: transparent transparent transparent #fff;
+        position: absolute;
+        top: 20%;
+        right: -19px;
+    }
+
+    /*箭頭左*/
+    .mwt_border .arrow_l_int {
+        width: 0px;
+        height: 0px;
+        border-width: 10px;
+        border-style: solid;
+        border-color: transparent #333 transparent transparent;
+        position: absolute;
+        top: 20%;
+        left: -20px;
+    }
+
+    /*箭頭左-邊框*/
+    .mwt_border .arrow_l_out {
+        width: 0px;
+        height: 0px;
+        border-width: 10px;
+        border-style: solid;
+        border-color: transparent #fff transparent transparent;
+        position: absolute;
+        top: 20%;
+        left: -19px;
+    }
+
+    /*箭頭上*/
+    .mwt_border .arrow_t_int {
+        width: 0px;
+        height: 0px;
+        border-width: 10px;
+        border-style: solid;
+        border-color: transparent transparent #333 transparent;
+        position: absolute;
+        top: -20px;
+        left: 40px;
+    }
+    /*箭頭上-邊框*/
+    .mwt_border .arrow_t_out {
+        width: 0px;
+        height: 0px;
+        border-width: 10px;
+        border-style: solid;
+        border-color: transparent transparent #fff transparent;
+        position: absolute;
+        top: -19px;
+        left: 40px;
+    }
+
+    /*箭頭下*/
+    .mwt_border .arrow_b_int {
+        width: 0px;
+        height: 0px;
+        border-width: 10px;
+        border-style: solid;
+        border-color: #333 transparent transparent transparent;
+        position: absolute;
+        bottom: -20px;
+        right: 50px;
+    }
+    /*箭頭下-邊框*/
+    .mwt_border .arrow_b_out {
+        width: 0px;
+        height: 0px;
+        border-width: 10px;
+        border-style: solid;
+        border-color: #fff transparent transparent transparent;
+        position: absolute;
+        bottom: -19px;
+        right: 50px;
+    }
+/*帶箭頭div提示框 end *************************************/
+
+/**示警平台前台顯示 Start 2015/07/30**/
+/*警示視窗-底框*/
+.MegDivSimpleClass
+{
+    width:240px;
+    height:300px;
+    background-color:#FFF;
+    position:absolute;
+    bottom:0px;
+    right:80px;
+    z-index:10;
+    overflow-y:hidden;
+    overflow-x:hidden;
+    display:none;
+}
+
+/*警示視窗-控制*/
+.MegDivCtrlClass
+{
+    width:240px;
+    height:22px;
+    font-size:15px;
+    background-color:#E60012;
+    color:#FFF;
+    position:absolute;
+    z-index:10;
+    text-align:center;
+    padding-top:4px;
+    padding-bottom:3px;
+    cursor:pointer;
+    animation:blink 2s infinite;
+    -moz-animation:blink 2s infinite; /* Firefox */
+    -webkit-animation:blink 2s infinite; /* Safari and Chrome */
+    -o-animation:blink 2s infinite; /* Opera */
+}
+
+/*警示視窗-訊息框*/
+.MegDivClass
+{
+    width:200px;
+    background-color:#F6F5EE;
+    margin-left:auto;
+    margin-right:auto;           
+    margin-bottom:15px;
+    color:#545353;
+    border:1px solid #FFF;
+    text-overflow : ellipsis; 
+    overflow : hidden;
+    padding:5px 5px 5px 5px;
+    font-size:14px;
+    cursor:pointer;
+    box-shadow:0px 0px 5px 2px rgba(20%,20%,40%,0.5);
+}
+
+/*警示視窗-文字閃爍特效*/
+@keyframes blink
+{
+    0%
+    {
+        color:#FFF;
+    }
+
+    80%
+    {
+        color:#FFF;
+    }
+
+    81%
+    {
+        color:#FFF;
+    }
+
+    100%
+    {
+        color:#E60012;
+    }
+}
+
+/**示警平台前台顯示 End**/
+/**2016/06/14 Kevin 登入建議修改個資 Start**/
+#InfoChangeAlert{
+  width: 300px;
+    /*height: 300px;*/ 
+   position: absolute; 
+    z-index :9999;
+   top:50%;
+   left:45%;
+   display:none;
+}
+
+#InfoChangeAlertTilte{
+   background-color: #267fdd;
+   color:white;
+   height: 20px;
+   font-size:16px;
+   padding: 3px;
+   text-align:center;
+   border-radius:5px;
+}
+
+#InfoChangeAlertDesc{
+   background-color: #FFF;
+   font-size:14px;
+   padding-left:3px;
+   padding-top:10px;
+   padding-right:10px;
+   padding-left:10px;
+   padding-bottom:10px;
+}
+/**2016/06/14 Kevin 登入建議修改個資 End**/
+/*#tabInfo{
+   position:absolute;
+   text-align:center;
+   width:250px;
+   height:85px;
+   top:30px;
+   left:25px;
+   padding-top:10px;
+   padding-bottom:9px;
+   background:#fff;
+   opacity:0.85;
+  
+   font-family: Arial,"微軟正黑體","Microsoft JhengHei"; 
+   display:none;          
+}*/
+#tabInfo {
+    font-size:12px;
+    padding: 7px 5px 9px 16px;
+    font-family: Arial,"微軟正黑體","Microsoft JhengHei"; 
+}
+
+.openTabContent {
+    display: none;
+    /*background: #5B9BD5;*/
+    /*border:  2px solid #436F97;*/
+    font-size: 15px;
+    height: 21px;
+    line-height: 21px;
+    width: 21px;
+    text-align: center;
+    /*border-radius: 99em;*/
+    position: absolute;    
+    /*
+    top:7px;*/
+    /*left: 130px;*/
+    right:15px;
+    cursor: pointer;
+   
+}
+.closeTabsContent {
+    /*background: #5B9BD5;*/
+    /*border: 2px solid #436F97;*/
+    font-size: 15px;
+    height: 21px;
+    line-height: 15px;
+    width: 21px;
+    text-align: center;
+    /*border-radius: 99em;*/
+    position: absolute;    
+    /*
+    top:7px;*/
+    right: 15px;
+    cursor: pointer;
+    display:inline-block;
+}
+
+/*Feature service熱區圖 Kevin 2016.09.21*/
+.HeatMap
+{
+    position: absolute;
+    left: -245px;
+    /*height: 7%;*/
+    width: 225px;
+    border: 1px solid #B3B3B3;
+    border-radius: 5px;
+    background-color: #E8F4F7;
+    /*line-height: 20px;*/
+    display: none;
+    z-index: 100;   
+}
+/*頁籤API地址定位*/
+.L2R{
+
+background: -webkit-linear-gradient(left,#046EB8,#1EB5C3);
+background: -o-linear-gradient(right,#046EB8,#1EB5C3);
+background: -moz-linear-gradient(right,#046EB8,#1EB5C3);
+background: linear-gradient(to right,#046EB8,#1EB5C3);
+height:50px;width:350px;
+}
+input:focus {
+    outline:none;
+}
+
+#eachCountryContent{
+    padding:5px 5px 0px 5px;
+    background-color:#fff;
+    cursor:default;
+    border-bottom: 1px solid #999;
+    font-size:12px;
+    font-family: 微軟正黑體,Microsoft JhengHei;
+}
+
+#cwbContent{   
+    padding:5px 5px 0px 5px;
+    background-color:#fff;
+    cursor:default;
+    width:400px;
+    font-size:12px;
+    font-family: 微軟正黑體,Microsoft JhengHei;
+}
+
+
+#divRouteList{
+    padding-right:15px;
+    padding-left:2px;
+}    
+
+#imgToggle{
+    height:35px;
+    width:35px;
+}
+
+#buttonLocateHome{
+    position: fixed;
+    left: 66px;
+    bottom: 40px;
+    z-index: 3;
+    height: 24px;
+    width: 25px;
+    background-color: #fff;
+    
+}
+
+#buttonOpenWindow{
+    position: fixed;
+    left: 94px;
+    bottom: 40px;
+    z-index: 3;
+    height: 24px;
+    width: 25px;
+    background-color: #fff;
+    border-radius:0px 5px 5px 0px;
+}
