@@ -4,7 +4,7 @@
   "Exec": "DBPoint",
   "DataList": [
     {
-      "CurrDT": "2017/07/11 16:29:14",
+      "CurrDT": "2017/07/12 11:00:33",
       "Items": [
         {
           "geometry": {
@@ -568,15 +568,15 @@
           "attributes": {
             "ID": "1000401",
             "Title": "竹北市",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "1000401",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "120.99442",
             "PY": "24.83838"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -593,15 +593,15 @@
           "attributes": {
             "ID": "1000402",
             "Title": "竹東鎮",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "1000402",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "121.07534",
             "PY": "24.73088"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -618,15 +618,15 @@
           "attributes": {
             "ID": "1000403",
             "Title": "新埔鎮",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "1000403",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "121.09398",
             "PY": "24.84145"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -643,15 +643,15 @@
           "attributes": {
             "ID": "1000404",
             "Title": "關西鎮",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "1000404",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "121.1866",
             "PY": "24.78525"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -668,15 +668,15 @@
           "attributes": {
             "ID": "1000405",
             "Title": "湖口鄉",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "1000405",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "121.0517",
             "PY": "24.88576"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -693,15 +693,15 @@
           "attributes": {
             "ID": "1000406",
             "Title": "新豐鄉",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "1000406",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "120.99569",
             "PY": "24.90723"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -718,15 +718,15 @@
           "attributes": {
             "ID": "1000407",
             "Title": "芎林鄉",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "1000407",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "121.10464",
             "PY": "24.76581"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -743,15 +743,15 @@
           "attributes": {
             "ID": "1000408",
             "Title": "橫山鄉",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "1000408",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "121.14698",
             "PY": "24.70791"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -768,15 +768,15 @@
           "attributes": {
             "ID": "1000409",
             "Title": "北埔鄉",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "1000409",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "121.06427",
             "PY": "24.67218"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -793,15 +793,15 @@
           "attributes": {
             "ID": "1000410",
             "Title": "寶山鄉",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "1000410",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "120.99915",
             "PY": "24.73707"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -818,15 +818,15 @@
           "attributes": {
             "ID": "1000411",
             "Title": "峨眉鄉",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "1000411",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "121.01108",
             "PY": "24.67821"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -843,15 +843,15 @@
           "attributes": {
             "ID": "1000412",
             "Title": "尖石鄉",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "1000412",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "121.28194",
             "PY": "24.59503"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -868,15 +868,15 @@
           "attributes": {
             "ID": "1000413",
             "Title": "五峰鄉",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "1000413",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "121.13897",
             "PY": "24.57816"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -893,15 +893,15 @@
           "attributes": {
             "ID": "1000501",
             "Title": "苗栗市",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "1000501",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "120.81122",
             "PY": "24.56393"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -918,15 +918,15 @@
           "attributes": {
             "ID": "1000502",
             "Title": "苑裡鎮",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "1000502",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "120.68822",
             "PY": "24.41112"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -943,15 +943,15 @@
           "attributes": {
             "ID": "1000503",
             "Title": "通霄鎮",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "1000503",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "120.71456",
             "PY": "24.48514"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -968,15 +968,15 @@
           "attributes": {
             "ID": "1000504",
             "Title": "竹南鎮",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "1000504",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "120.87772",
             "PY": "24.69873"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -993,15 +993,15 @@
           "attributes": {
             "ID": "1000505",
             "Title": "頭份鎮",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "1000505",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "120.91895",
             "PY": "24.67639"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -1018,15 +1018,15 @@
           "attributes": {
             "ID": "1000506",
             "Title": "後龍鎮",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "1000506",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "120.7812",
             "PY": "24.61575"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -1043,15 +1043,15 @@
           "attributes": {
             "ID": "1000507",
             "Title": "卓蘭鎮",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "1000507",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "120.85604",
             "PY": "24.32539"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -1068,15 +1068,15 @@
           "attributes": {
             "ID": "1000508",
             "Title": "大湖鄉",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "1000508",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "120.86314",
             "PY": "24.3938"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -1093,15 +1093,15 @@
           "attributes": {
             "ID": "1000509",
             "Title": "公館鄉",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "1000509",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "120.85059",
             "PY": "24.50261"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -1118,15 +1118,15 @@
           "attributes": {
             "ID": "1000510",
             "Title": "銅鑼鄉",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "1000510",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "120.7992",
             "PY": "24.45603"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -1143,15 +1143,15 @@
           "attributes": {
             "ID": "1000511",
             "Title": "南庄鄉",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "1000511",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "121.01749",
             "PY": "24.5662"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -1168,15 +1168,15 @@
           "attributes": {
             "ID": "1000512",
             "Title": "頭屋鄉",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "1000512",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "120.88266",
             "PY": "24.57357"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -1193,15 +1193,15 @@
           "attributes": {
             "ID": "1000513",
             "Title": "三義鄉",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "1000513",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "120.77019",
             "PY": "24.38093"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -1218,15 +1218,15 @@
           "attributes": {
             "ID": "1000514",
             "Title": "西湖鄉",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "1000514",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "120.76141",
             "PY": "24.54164"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -1243,15 +1243,15 @@
           "attributes": {
             "ID": "1000515",
             "Title": "造橋鄉",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "1000515",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "120.86956",
             "PY": "24.62492"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -1268,15 +1268,15 @@
           "attributes": {
             "ID": "1000516",
             "Title": "三灣鄉",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "1000516",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "120.95257",
             "PY": "24.63609"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -1293,15 +1293,15 @@
           "attributes": {
             "ID": "1000517",
             "Title": "獅潭鄉",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "1000517",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "120.92069",
             "PY": "24.51991"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -1318,15 +1318,15 @@
           "attributes": {
             "ID": "1000518",
             "Title": "泰安鄉",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "1000518",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "121.06829",
             "PY": "24.41928"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -1993,15 +1993,15 @@
           "attributes": {
             "ID": "1000801",
             "Title": "南投市",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "1000801",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "120.67881",
             "PY": "23.9218"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -2018,15 +2018,15 @@
           "attributes": {
             "ID": "1000802",
             "Title": "埔里鎮",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "1000802",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "120.96257",
             "PY": "23.97901"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -2043,15 +2043,15 @@
           "attributes": {
             "ID": "1000803",
             "Title": "草屯鎮",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "1000803",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "120.7321",
             "PY": "23.98336"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -2068,15 +2068,15 @@
           "attributes": {
             "ID": "1000804",
             "Title": "竹山鎮",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "1000804",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "120.7101",
             "PY": "23.69819"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -2093,15 +2093,15 @@
           "attributes": {
             "ID": "1000805",
             "Title": "集集鎮",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "1000805",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "120.78529",
             "PY": "23.83709"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -2118,15 +2118,15 @@
           "attributes": {
             "ID": "1000806",
             "Title": "名間鄉",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "1000806",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "120.67745",
             "PY": "23.85117"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -2143,15 +2143,15 @@
           "attributes": {
             "ID": "1000807",
             "Title": "鹿谷鄉",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "1000807",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "120.78153",
             "PY": "23.73788"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -2168,15 +2168,15 @@
           "attributes": {
             "ID": "1000808",
             "Title": "中寮鄉",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "1000808",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "120.78602",
             "PY": "23.90605"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -2193,15 +2193,15 @@
           "attributes": {
             "ID": "1000809",
             "Title": "魚池鄉",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "1000809",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "120.92573",
             "PY": "23.87609"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -2218,15 +2218,15 @@
           "attributes": {
             "ID": "1000810",
             "Title": "國姓鄉",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "1000810",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "120.86755",
             "PY": "24.03133"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -2243,15 +2243,15 @@
           "attributes": {
             "ID": "1000811",
             "Title": "水里鄉",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "1000811",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "120.86227",
             "PY": "23.79627"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -2268,15 +2268,15 @@
           "attributes": {
             "ID": "1000812",
             "Title": "信義鄉",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "1000812",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "121.02135",
             "PY": "23.65561"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -2468,15 +2468,15 @@
           "attributes": {
             "ID": "1000907",
             "Title": "古坑鄉",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "1000907",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "120.61171",
             "PY": "23.62557"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -2818,15 +2818,15 @@
           "attributes": {
             "ID": "1001001",
             "Title": "太保市",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "1001001",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "120.34399",
             "PY": "23.47302"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -2843,15 +2843,15 @@
           "attributes": {
             "ID": "1001002",
             "Title": "朴子市",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "1001002",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "120.25384",
             "PY": "23.44615"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -2868,15 +2868,15 @@
           "attributes": {
             "ID": "1001003",
             "Title": "布袋鎮",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "1001003",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "120.17701",
             "PY": "23.37513"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -2893,15 +2893,15 @@
           "attributes": {
             "ID": "1001004",
             "Title": "大林鎮",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "1001004",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "120.48078",
             "PY": "23.599"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -2918,15 +2918,15 @@
           "attributes": {
             "ID": "1001005",
             "Title": "民雄鄉",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "1001005",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "120.44427",
             "PY": "23.54265"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -2943,15 +2943,15 @@
           "attributes": {
             "ID": "1001006",
             "Title": "溪口鄉",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "1001006",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "120.40102",
             "PY": "23.59362"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -2968,15 +2968,15 @@
           "attributes": {
             "ID": "1001007",
             "Title": "新港鄉",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "1001007",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "120.34828",
             "PY": "23.54591"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -2993,15 +2993,15 @@
           "attributes": {
             "ID": "1001008",
             "Title": "六腳鄉",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "1001008",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "120.27148",
             "PY": "23.51027"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -3018,15 +3018,15 @@
           "attributes": {
             "ID": "1001009",
             "Title": "東石鄉",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "1001009",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "120.17376",
             "PY": "23.46861"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -3043,15 +3043,15 @@
           "attributes": {
             "ID": "1001010",
             "Title": "義竹鄉",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "1001010",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "120.22394",
             "PY": "23.34585"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -3068,15 +3068,15 @@
           "attributes": {
             "ID": "1001011",
             "Title": "鹿草鄉",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "1001011",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "120.30454",
             "PY": "23.40821"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -3093,15 +3093,15 @@
           "attributes": {
             "ID": "1001012",
             "Title": "水上鄉",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "1001012",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "120.41473",
             "PY": "23.4292"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -3118,15 +3118,15 @@
           "attributes": {
             "ID": "1001013",
             "Title": "中埔鄉",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "1001013",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "120.53653",
             "PY": "23.40418"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -3143,15 +3143,15 @@
           "attributes": {
             "ID": "1001014",
             "Title": "竹崎鄉",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "1001014",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "120.59656",
             "PY": "23.50384"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -3168,15 +3168,15 @@
           "attributes": {
             "ID": "1001015",
             "Title": "梅山鄉",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "1001015",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "120.63877",
             "PY": "23.55544"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -3193,15 +3193,15 @@
           "attributes": {
             "ID": "1001016",
             "Title": "番路鄉",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "1001016",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "120.60751",
             "PY": "23.42777"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -3218,15 +3218,15 @@
           "attributes": {
             "ID": "1001017",
             "Title": "大埔鄉",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "1001017",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "120.58965",
             "PY": "23.28859"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -3243,15 +3243,15 @@
           "attributes": {
             "ID": "1001018",
             "Title": "阿里山鄉",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "1001018",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "120.75965",
             "PY": "23.44092"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -3893,15 +3893,15 @@
           "attributes": {
             "ID": "1001326",
             "Title": "三地門鄉",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "1001326",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "120.68653",
             "PY": "22.79797"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -3918,15 +3918,15 @@
           "attributes": {
             "ID": "1001327",
             "Title": "霧台鄉",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "1001327",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "120.80082",
             "PY": "22.76001"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -3943,15 +3943,15 @@
           "attributes": {
             "ID": "1001328",
             "Title": "瑪家鄉",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "1001328",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "120.67993",
             "PY": "22.67117"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -3968,15 +3968,15 @@
           "attributes": {
             "ID": "1001329",
             "Title": "泰武鄉",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "1001329",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "120.69181",
             "PY": "22.60419"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -3993,15 +3993,15 @@
           "attributes": {
             "ID": "1001330",
             "Title": "來義鄉",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "1001330",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "120.68572",
             "PY": "22.50168"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -4018,15 +4018,15 @@
           "attributes": {
             "ID": "1001331",
             "Title": "春日鄉",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "1001331",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "120.69759",
             "PY": "22.40413"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -4043,15 +4043,15 @@
           "attributes": {
             "ID": "1001332",
             "Title": "獅子鄉",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "1001332",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "120.73571",
             "PY": "22.2609"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -6343,15 +6343,15 @@
           "attributes": {
             "ID": "6403200",
             "Title": "六龜區",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "6403200",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "120.65785",
             "PY": "23.00885"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -6368,15 +6368,15 @@
           "attributes": {
             "ID": "6403300",
             "Title": "甲仙區",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "6403300",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "120.62331",
             "PY": "23.11666"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -6443,15 +6443,15 @@
           "attributes": {
             "ID": "6403600",
             "Title": "茂林區",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "6403600",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "120.75237",
             "PY": "22.92005"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -6468,15 +6468,15 @@
           "attributes": {
             "ID": "6403700",
             "Title": "桃源區",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "6403700",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "120.85142",
             "PY": "23.22447"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -6493,15 +6493,15 @@
           "attributes": {
             "ID": "6403800",
             "Title": "那瑪夏區",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "6403800",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "120.72108",
             "PY": "23.26343"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -6518,15 +6518,15 @@
           "attributes": {
             "ID": "6500100",
             "Title": "板橋區",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "6500100",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "121.45769",
             "PY": "25.0117"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -6543,15 +6543,15 @@
           "attributes": {
             "ID": "6500200",
             "Title": "三重區",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "6500200",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "121.48717",
             "PY": "25.06312"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -6568,15 +6568,15 @@
           "attributes": {
             "ID": "6500300",
             "Title": "中和區",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "6500300",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "121.49417",
             "PY": "24.99097"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -6593,15 +6593,15 @@
           "attributes": {
             "ID": "6500400",
             "Title": "永和區",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "6500400",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "121.51675",
             "PY": "25.00822"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -6618,15 +6618,15 @@
           "attributes": {
             "ID": "6500500",
             "Title": "新莊區",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "6500500",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "121.43675",
             "PY": "25.03594"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -6643,15 +6643,15 @@
           "attributes": {
             "ID": "6500600",
             "Title": "新店區",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "6500600",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "121.53165",
             "PY": "24.9305"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -6668,15 +6668,15 @@
           "attributes": {
             "ID": "6500700",
             "Title": "樹林區",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "6500700",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "121.40115",
             "PY": "24.97993"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -6693,15 +6693,15 @@
           "attributes": {
             "ID": "6500800",
             "Title": "鶯歌區",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "6500800",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "121.34661",
             "PY": "24.95674"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -6718,15 +6718,15 @@
           "attributes": {
             "ID": "6500900",
             "Title": "三峽區",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "6500900",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "121.41628",
             "PY": "24.88225"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -6743,15 +6743,15 @@
           "attributes": {
             "ID": "6501000",
             "Title": "淡水區",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "6501000",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "121.46367",
             "PY": "25.18922"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -6768,15 +6768,15 @@
           "attributes": {
             "ID": "6501100",
             "Title": "汐止區",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "6501100",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "121.65468",
             "PY": "25.07341"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -6793,15 +6793,15 @@
           "attributes": {
             "ID": "6501200",
             "Title": "瑞芳區",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "6501200",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "121.8232",
             "PY": "25.09822"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -6818,15 +6818,15 @@
           "attributes": {
             "ID": "6501300",
             "Title": "土城區",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "6501300",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "121.44572",
             "PY": "24.96437"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -6843,15 +6843,15 @@
           "attributes": {
             "ID": "6501400",
             "Title": "蘆洲區",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "6501400",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "121.47125",
             "PY": "25.08936"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -6868,15 +6868,15 @@
           "attributes": {
             "ID": "6501500",
             "Title": "五股區",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "6501500",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "121.4332",
             "PY": "25.09625"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -6893,15 +6893,15 @@
           "attributes": {
             "ID": "6501600",
             "Title": "泰山區",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "6501600",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "121.41626",
             "PY": "25.05559"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -6918,15 +6918,15 @@
           "attributes": {
             "ID": "6501700",
             "Title": "林口區",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "6501700",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "121.35255",
             "PY": "25.10026"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -6943,15 +6943,15 @@
           "attributes": {
             "ID": "6501800",
             "Title": "深坑區",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "6501800",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "121.62007",
             "PY": "24.99776"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -6968,15 +6968,15 @@
           "attributes": {
             "ID": "6501900",
             "Title": "石碇區",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "6501900",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "121.64725",
             "PY": "24.94725"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -6993,15 +6993,15 @@
           "attributes": {
             "ID": "6502000",
             "Title": "坪林區",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "6502000",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "121.72423",
             "PY": "24.91107"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -7018,15 +7018,15 @@
           "attributes": {
             "ID": "6502100",
             "Title": "三芝區",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "6502100",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "121.51553",
             "PY": "25.23172"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -7043,15 +7043,15 @@
           "attributes": {
             "ID": "6502200",
             "Title": "石門區",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "6502200",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "121.56928",
             "PY": "25.26526"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -7068,15 +7068,15 @@
           "attributes": {
             "ID": "6502300",
             "Title": "八里區",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "6502300",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "121.41225",
             "PY": "25.13956"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -7093,15 +7093,15 @@
           "attributes": {
             "ID": "6502400",
             "Title": "平溪區",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "6502400",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "121.75789",
             "PY": "25.02617"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -7118,15 +7118,15 @@
           "attributes": {
             "ID": "6502500",
             "Title": "雙溪區",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "6502500",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "121.83277",
             "PY": "24.99693"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -7143,15 +7143,15 @@
           "attributes": {
             "ID": "6502600",
             "Title": "貢寮區",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "6502600",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "121.91817",
             "PY": "25.02514"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -7168,15 +7168,15 @@
           "attributes": {
             "ID": "6502700",
             "Title": "金山區",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "6502700",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "121.60526",
             "PY": "25.21725"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -7193,15 +7193,15 @@
           "attributes": {
             "ID": "6502800",
             "Title": "萬里區",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "6502800",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "121.64396",
             "PY": "25.17583"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -7218,15 +7218,15 @@
           "attributes": {
             "ID": "6502900",
             "Title": "烏來區",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "6502900",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "121.54152",
             "PY": "24.78835"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -7468,15 +7468,15 @@
           "attributes": {
             "ID": "6601000",
             "Title": "東勢區",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "6601000",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "120.84011",
             "PY": "24.24965"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -7693,15 +7693,15 @@
           "attributes": {
             "ID": "6601900",
             "Title": "新社區",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "6601900",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "120.83127",
             "PY": "24.17783"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -7718,15 +7718,15 @@
           "attributes": {
             "ID": "6602000",
             "Title": "石岡區",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "6602000",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "120.79037",
             "PY": "24.26505"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -7893,15 +7893,15 @@
           "attributes": {
             "ID": "6602700",
             "Title": "太平區",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "6602700",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "120.77339",
             "PY": "24.11487"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -7943,15 +7943,15 @@
           "attributes": {
             "ID": "6602900",
             "Title": "和平區",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "6602900",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "121.14065",
             "PY": "24.27602"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -8543,15 +8543,15 @@
           "attributes": {
             "ID": "6702400",
             "Title": "楠西區",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "6702400",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "120.51703",
             "PY": "23.17896"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -8568,15 +8568,15 @@
           "attributes": {
             "ID": "6702500",
             "Title": "南化區",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "6702500",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "120.54417",
             "PY": "23.11522"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -8893,15 +8893,15 @@
           "attributes": {
             "ID": "6800100",
             "Title": "桃園區",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "6800100",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "121.29967",
             "PY": "25.00053"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -8918,15 +8918,15 @@
           "attributes": {
             "ID": "6800200",
             "Title": "中壢區",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "6800200",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "121.21473",
             "PY": "24.98003"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -8943,15 +8943,15 @@
           "attributes": {
             "ID": "6800300",
             "Title": "大溪區",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "6800300",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "121.29635",
             "PY": "24.86808"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -8968,15 +8968,15 @@
           "attributes": {
             "ID": "6800400",
             "Title": "楊梅區",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "6800400",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "121.12916",
             "PY": "24.9183"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -8993,15 +8993,15 @@
           "attributes": {
             "ID": "6800500",
             "Title": "蘆竹區",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "6800500",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "121.28312",
             "PY": "25.06083"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -9018,15 +9018,15 @@
           "attributes": {
             "ID": "6800600",
             "Title": "大園區",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "6800600",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "121.21181",
             "PY": "25.06405"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -9043,15 +9043,15 @@
           "attributes": {
             "ID": "6800700",
             "Title": "龜山區",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "6800700",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "121.35693",
             "PY": "25.02428"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -9068,15 +9068,15 @@
           "attributes": {
             "ID": "6800800",
             "Title": "八德區",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "6800800",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "121.29131",
             "PY": "24.9498"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -9093,15 +9093,15 @@
           "attributes": {
             "ID": "6800900",
             "Title": "龍潭區",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "6800900",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "121.21179",
             "PY": "24.85075"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -9118,15 +9118,15 @@
           "attributes": {
             "ID": "6801000",
             "Title": "平鎮區",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "6801000",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "121.21402",
             "PY": "24.92126"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -9143,15 +9143,15 @@
           "attributes": {
             "ID": "6801100",
             "Title": "新屋區",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "6801100",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "121.06773",
             "PY": "24.9729"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -9168,15 +9168,15 @@
           "attributes": {
             "ID": "6801200",
             "Title": "觀音區",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "6801200",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "121.11591",
             "PY": "25.02672"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -9193,15 +9193,15 @@
           "attributes": {
             "ID": "6801300",
             "Title": "復興區",
-            "headline": "大雨特報",
-            "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
+            "headline": "",
+            "description": "目前無警示",
             "TOWN_ID": "6801300",
-            "Pic": "yellow.png",
+            "Pic": "green.png",
             "PX": "121.37545",
             "PY": "24.72963"
           },
           "PictureMarkerSymbol": {
-            "url": "yellow.png",
+            "url": "green.png",
             "height": 16,
             "width": 16
           }
@@ -9235,951 +9235,6 @@
           "description": "台東縣 海端鄉 台20線153K+000~175K+000，因 路基流失災害封閉。 災害發生時間：2017/6/3 下午 07:08:00；預計搶通時間：2017/7/15 下午 12:00:00",
           "Color": "red",
           "ColorOrder": "4"
-        },
-        {
-          "ID": "10004  ",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "1000401",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "1000402",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "1000403",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "1000404",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "1000405",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "1000406",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "1000407",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "1000408",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "1000409",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "1000410",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "1000411",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "1000412",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "1000413",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "10005  ",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "1000501",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "1000502",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "1000503",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "1000504",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "1000505",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "1000506",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "1000507",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "1000508",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "1000509",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "1000510",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "1000511",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "1000512",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "1000513",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "1000514",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "1000515",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "1000516",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "1000517",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "1000518",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "10008  ",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "1000801",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "1000802",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "1000803",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "1000804",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "1000805",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "1000806",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "1000807",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "1000808",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "1000809",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "1000810",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "1000811",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "1000812",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "1000813",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "10009  ",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "1000907",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "10010  ",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "1001001",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "1001002",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "1001003",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "1001004",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "1001005",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "1001006",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "1001007",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "1001008",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "1001009",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "1001010",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "1001011",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "1001012",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "1001013",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "1001014",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "1001015",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "1001016",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "1001017",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "1001018",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "10013  ",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "1001326",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "1001327",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "1001328",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "1001329",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "1001330",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "1001331",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "1001332",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "64000  ",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "6403200",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "6403300",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "6403600",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "6403700",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "6403800",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "65000  ",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "6500100",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "6500200",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "6500300",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "6500400",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "6500500",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "6500600",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "6500700",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "6500800",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "6500900",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "6501000",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "6501100",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "6501200",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "6501300",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "6501400",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "6501500",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "6501600",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "6501700",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "6501800",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "6501900",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "6502000",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "6502100",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "6502200",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "6502300",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "6502400",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "6502500",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "6502600",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "6502700",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "6502800",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "6502900",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "66000  ",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "6601000",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "6601900",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "6602000",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "6602700",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "6602900",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "67000  ",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "6702400",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "6702500",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "68000  ",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "6800100",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "6800200",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "6800300",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "6800400",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "6800500",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "6800600",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "6800700",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "6800800",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "6800900",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "6801000",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "6801100",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "6801200",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
-        },
-        {
-          "ID": "6801300",
-          "headline": "大雨特報",
-          "description": "對流雲系發展旺盛，今（１１）日新北至苗栗、南投、嘉義地區及臺中以南山區有局部大雨發生的機率，請注意瞬間大雨、雷擊及強陣風。        ",
-          "Color": "#B59E1B",
-          "ColorOrder": "2"
         },
         {
           "ID": "09007  ",
@@ -10351,6 +9406,237 @@
         },
         {
           "ID": "1000212",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "10004  ",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "1000401",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "1000402",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "1000403",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "1000404",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "1000405",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "1000406",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "1000407",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "1000408",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "1000409",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "1000410",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "1000411",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "1000412",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "1000413",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "10005  ",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "1000501",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "1000502",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "1000503",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "1000504",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "1000505",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "1000506",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "1000507",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "1000508",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "1000509",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "1000510",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "1000511",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "1000512",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "1000513",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "1000514",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "1000515",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "1000516",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "1000517",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "1000518",
           "headline": "",
           "description": "目前無警示",
           "Color": "green",
@@ -10546,6 +9832,97 @@
           "ColorOrder": "0"
         },
         {
+          "ID": "10008  ",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "1000801",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "1000802",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "1000803",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "1000804",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "1000805",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "1000806",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "1000807",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "1000808",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "1000809",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "1000810",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "1000811",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "1000812",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
           "ID": "10009  ",
           "headline": "",
           "description": "目前無警示",
@@ -10589,6 +9966,13 @@
         },
         {
           "ID": "1000906",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "1000907",
           "headline": "",
           "description": "目前無警示",
           "Color": "green",
@@ -10680,6 +10064,139 @@
         },
         {
           "ID": "1000920",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "10010  ",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "1001001",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "1001002",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "1001003",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "1001004",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "1001005",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "1001006",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "1001007",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "1001008",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "1001009",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "1001010",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "1001011",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "1001012",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "1001013",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "1001014",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "1001015",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "1001016",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "1001017",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "1001018",
           "headline": "",
           "description": "目前無警示",
           "Color": "green",
@@ -10862,6 +10379,55 @@
         },
         {
           "ID": "1001325",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "1001326",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "1001327",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "1001328",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "1001329",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "1001330",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "1001331",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "1001332",
           "headline": "",
           "description": "目前無警示",
           "Color": "green",
@@ -11554,6 +11120,20 @@
           "ColorOrder": "0"
         },
         {
+          "ID": "6403200",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "6403300",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
           "ID": "6403400",
           "headline": "",
           "description": "目前無警示",
@@ -11562,6 +11142,237 @@
         },
         {
           "ID": "6403500",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "6403600",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "6403700",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "6403800",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "65000  ",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "6500100",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "6500200",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "6500300",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "6500400",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "6500500",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "6500600",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "6500700",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "6500800",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "6500900",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "6501000",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "6501100",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "6501200",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "6501300",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "6501400",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "6501500",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "6501600",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "6501700",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "6501800",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "6501900",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "6502000",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "6502100",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "6502200",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "6502300",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "6502400",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "6502500",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "6502600",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "6502700",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "6502800",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "6502900",
           "headline": "",
           "description": "目前無警示",
           "Color": "green",
@@ -11638,6 +11449,13 @@
           "ColorOrder": "0"
         },
         {
+          "ID": "6601000",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
           "ID": "6601100",
           "headline": "",
           "description": "目前無警示",
@@ -11694,6 +11512,20 @@
           "ColorOrder": "0"
         },
         {
+          "ID": "6601900",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "6602000",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
           "ID": "6602100",
           "headline": "",
           "description": "目前無警示",
@@ -11736,7 +11568,21 @@
           "ColorOrder": "0"
         },
         {
+          "ID": "6602700",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
           "ID": "6602800",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "6602900",
           "headline": "",
           "description": "目前無警示",
           "Color": "green",
@@ -11911,6 +11757,20 @@
           "ColorOrder": "0"
         },
         {
+          "ID": "6702400",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "6702500",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
           "ID": "6702600",
           "headline": "",
           "description": "目前無警示",
@@ -11989,6 +11849,104 @@
         },
         {
           "ID": "6703700",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "68000  ",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "6800100",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "6800200",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "6800300",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "6800400",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "6800500",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "6800600",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "6800700",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "6800800",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "6800900",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "6801000",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "6801100",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "6801200",
+          "headline": "",
+          "description": "目前無警示",
+          "Color": "green",
+          "ColorOrder": "0"
+        },
+        {
+          "ID": "6801300",
           "headline": "",
           "description": "目前無警示",
           "Color": "green",
